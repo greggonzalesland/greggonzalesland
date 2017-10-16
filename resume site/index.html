@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<title>Greg's Resume</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/4.0.2/bootstrap-material-design.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/4.0.2/bootstrap-material-design.iife.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/main.js"></script>
+
+
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#home" class="w3-bar-item w3-button">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+  </div>
+
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+    <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<!-- Hide this on small screens -->
+<div class="bgimg-1 w3-display-container w3-hide-medium w3-hide-small" id="home">
+  <h1>Gregory Gonzales-landry</h1>
+</div>
+
+<!--Hide on large screens -->
+<div class="w3-display-container w3-hide-large" id="home">
+  <img src="img/welcome.gif" style="width:100%">
+</div>
+
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">ABOUT ME</h3>
+  <p class="w3-center"><em>I am an aspiring web developer</em></p>
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <p><b><i class="fa fa-user w3-margin-right"></i>Gregory Gonzales-Landry</b></p><br>
+      <img src="img/mypic.jpg" class="w3-round w3-image" alt="Photo of Me" width="500" height="333">
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-padding-large">
+      <br>
+      <br>
+      <p>My name is Gregory Gonzales-Landry (but you can call me Greg) and I would like to welcome you to my resume site. This site was developed in of course, HTML5, CSS, JavaScript and jQuery. With being self-taught and all, I am not very fond of working in a workspace in which many companies prefer to work, but I enjoy the challenge on becoming the best Web Developer I can be come. Some things about me is that I like to think outside the box. If I want to accomplish something I have no idea on how to accomplish, I simply look it up and figure out the problem at hand. It's hard for me to give up on such things and to just forget about it and move on, especially with things that I love doing. I take precautious steps to achieve my goal, and when I do, I do it in the best of fashion and trends. I was born and raised in the South and all my life have been intrigued by technology and the wonders it does. I've always loved to be around technology and up until now, I've always loved to create things on the web, and to be able to experience with your company, would be the greatest experience I could ever ask for.</p>
+    </div>
+  </div>
+  <p class="w3-large w3-center w3-padding-16">My Strengths Include:</p>
+  <p class="w3-wide"><i class="fa fa-users"></i>Communication</p>
+  <p class="w3-wide"><i class="fa fa-laptop"></i>Web Design</p>
+  <p class="w3-wide"><i class="fa fa-clock-o"></i>Time Management</p>
+  <p class="w3-wide"><i class="fa fa-paint-brush"></i>Point To Detail</p>
+</div>
+
+<div class="w3-row w3-center w3-dark-grey w3-padding-16">
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">0</span><br>
+    Partners
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">3</span><br>
+    Projects Done
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">3</span><br>
+    Happy Clients
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">3</span><br>
+    Meetings
+  </div>
+</div>
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-2 w3-display-container">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-white">PORTFOLIO</span>
+  </div>
+</div>
+
+<!-- Container (Portfolio Section) -->
+<div class="w3-content w3-container w3-padding-64" id="portfolio">
+  <h3 class="w3-center">MY WORK</h3>
+  <p class="w3-center"><em>Here are the websites that I've developed and helped build. There are more to come.</em></p><br>
+
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col m3">
+      <a href="http://www.bbgjazz.com/" target="_blank"><img src="img/bbg.jpg" style="width:100%" class="w3-hover-opacity" ></a>
+    </div>
+
+    <div class="w3-col m3">
+      <a href="http://www.shinepresents.com/" target="_blank"><img src="img/shine_logo.jpg" style="width:100%"  class="w3-hover-opacity" ></a>
+    </div>
+  </div>
+</div>
+
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-3 w3-display-container">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-white">CONTACT</span>
+  </div>
+</div>
+
+<!-- Container (Contact Section) -->
+<div class="w3-content w3-container w3-padding-64" id="contact">
+  <h3 class="w3-center">CONTACT ME</h3>
+  <p class="w3-center"><em>I'd love your feedback!</em></p>
+
+  <div class="w3-row w3-padding-32 w3-section">
+    <div class="w3-col m4 w3-container">
+      <!-- Add Google Maps -->
+      <div id="googleMap" class="w3-round-large w3-greyscale" style="width:100%;height:400px;"></div>
+    </div>
+    <div class="w3-col m8 w3-panel">
+      <div class="w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> St. Bernard,LA, US<br>
+        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: 504-418-1102<br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: gglandry23@gmail.com<br>
+      </div>
+      <p>Feel free to <i class="fa fa-phone"></i> whenever you'd like!</p>
+      <a href="https://www.linkedin.com/in/greggonzaleslandry/" target="_blank" class="hover-indigo"><i class="fa fa-linkedin fa-fw w3-xlarge w3-hover-blue"></i></a>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-padding-64 w3-opacity">
+  <a href="#home" class="w3-button w3-black"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+</footer>
+
+<script src="js/jquery.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDWa3znFtl_slt3W9zJ7_uZ0Bv3PjIxtsk&callback=myMap"type="text/javascript"></script>
+</body>
+</html>

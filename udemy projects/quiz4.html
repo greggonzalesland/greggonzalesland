@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Quiz 4</title>
+  </head>
+  <body>
+    <h1>Register</h1>
+
+    <form action="#" method="#">
+      <label for="firstName">First Name:</label>
+       <input type="text" placeholder="First Name" id="firstName">
+      <label for="lastName">Last Name: </label>
+        <input type="text" placeholder="Last Name" id="lastName">
+    </form>
+
+    <form action="#" method="#">
+      <label for="male">Male </label>
+        <input name="gender" type="radio" id="male" value="MALE">
+      <label for="female">Female </label>
+        <input name="gender" type="radio" id="female" value="FEMALE">
+      <label for="other">Other </label>
+        <input name="gender" type="radio" id="other" value="OTHER">
+    </form>
+
+    <form action="#" method="#">
+      <label for='email'>Email: </label>
+        <input type="email" id='email' placeholder="Email" required>
+      <label for='password'>Password: </label>
+        <input type="password" id='password' placeholder="Password" minlength="5" maxlength="10" required>
+    </form>
+
+    <form action="#" method="#">
+      <label for="birthday">Birthday: </label>
+        <select name="birthday" id="birthday">
+          <option>Month</option>
+        </select>
+        <select name="birthday" id="birthday">
+          <option>Day</option>
+        </select>
+        <select name="birthday" id="birthday">
+          <option>Year</option>
+        </select>
+    </form>
+
+    <form action="#" method="#">
+      <label for="tc">I agree to the terms and conditions</label>
+        <input type="checkbox" id="tc">
+    </form>
+
+    <input type="submit">
+  </body>
+</html>

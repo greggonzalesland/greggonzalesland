@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<title>BBG Jazz | MUSIC</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<link rel="stylesheet" href="bandsite.css">
+<link rel="shortcut icon" href="gregorygonzoland.github.io/favicon.ico">
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+<ul class="w3-navbar w3-light-grey w3-card-2 w3-left-align">
+  <li class="w3-hide-medium w3-hide-large w3-opennav w3-right">
+    <a class="w3-padding-large" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+  </li>
+  <li class="w3-hide-small"><a href="index.html" class=" w3-padding-large">HOME</a></li>
+  <li class="w3-hide-small"><a href="band.html" class=" w3-padding-large">BAND</a></li>
+  <li><a href="#" class="w3-hover-none w3-hover-text-grey w3-padding-large">MUSIC</a></li>
+  <li class="w3-hide-small"><a href="contact.html" class="w3-padding-large">CONTACT</a></li>
+    </div>
+  </li>
+</ul>
+</div>
+
+<!-- Navbar on small screens -->
+<div id="navDemo" class="w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <ul class="w3-navbar w3-left-align w3-light-grey">
+    <li><a class="w3-padding-large" href="index.html">HOME</a></li>
+    <li><a class="w3-padding-large" href="band.html">BAND</a></li>
+    <li><a class="w3-padding-large" href="#">MUSIC</a></li>
+    <li><a class="w3-padding-large" href="contact.html">CONTACT</a></li>
+  </ul>
+</div>
+
+<!-- Used to toggle the menu on small screens when clicking on the menu button -->
+<script>
+function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- The Band Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:1000px" id="band">
+    <h2 class="w3-wide">Music List!</h2>
+    <p class="w3-center">Here are the songs we play! They are mostly consisted of New Orleans Tradition but we do like to do a lot of what the crowd loves to hear!</p>
+    <p class="w3-opacity"><i>We also do requests so if you have any songs you want to hear us play, <a href="contact.html">let us know!</a></i></p>
+
+          <br>
+          <br>
+
+          <p>When The Saints Go Marching In<br>Lil Liza<br>Feel Like Funkin' It Up<br>Do What You Wanna(Treme)<br>In The Air Tonight<br>St. Louis Blues<br>Kenny Will Make It<br>Brooklyn<br>Happy<br>St. James Infirmary<br>Brick House<br>Treasure<br>And many more to come!</p>
+
+    </div>
+
+<!-- End Page Content -->
+</div>
+</body>
+</html>
